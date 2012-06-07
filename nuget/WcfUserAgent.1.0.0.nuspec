@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <version>1.0.0</version>
+    <authors>HJ Meulekamp; henk@meulekamp.net</authors>
+    <owners />
+    <id>WcfUserAgent</id>
+    <title>Message Inspector for WCF to add Useragent header by configuration</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>.net 4
+Can be compiled for different frameworks; See github project.
+
+After adding package check servicemodel in app/web.config
+
+Set your useragent and set add behaviorConfiguration to existing endpoints for WCF services which need a useragent
+
+&amp;lt;endpoint behaviorConfiguration="AddUserAgent_Behaviour" &amp;/gt;
+
+Based on:
+http://msmvps.com/blogs/paulomorgado/archive/2007/04/27/wcf-building-an-http-user-agent-message-inspector.aspx</description>
+    <summary>Message Inspector for WCF to add Useragent header by configuration.</summary>
+    <tags>wcf useragent plugin</tags>
+  </metadata>
+  <files>
+    <file src="..\src\WcfUserAgent\WcfUserAgent\App.config.transform" target="content\App.config.transform" />
+    <file src="..\src\WcfUserAgent\WcfUserAgent\bin\Release\WcfUserAgent.dll" target="lib\net40\WcfUserAgent.dll" />
+  </files>
+</package>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <system.serviceModel>
+    <extensions>
+      <behaviorExtensions>
+        <add name="httpUserAgent" type="WcfUserAgent.HttpUserAgentBehaviorExtensionElement, WcfUserAgent, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+      </behaviorExtensions>
+    </extensions>
+    <behaviors>
+      <endpointBehaviors>
+        <behavior name="AddUserAgent_Behaviour">
+          <!-- Replace MyCompanyApp With your useragent then add  behaviorConfiguration="AddUserAgent_Behaviour" to endpoint tag which need a useragent-->
+          <httpUserAgent userAgent="MyCompanyApp" />          
+        </behavior>
+      </endpointBehaviors>
+    </behaviors>
+    <client>
+     <!-- Add behaviorConfiguration to existing endpoints for WCF services which need a useragent
+     <endpoint behaviorConfiguration="AddUserAgent_Behaviour" />
+      -->
+     
+    </client>
+  </system.serviceModel>
+</configuration>
