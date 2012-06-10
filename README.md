@@ -3,7 +3,7 @@ Wcf Useragent C# Library
 
 A free, open source, C#/.NET Library plugin (Message inspector) for WCF to be able to configur the Useragent HTTP header on WCF Requests.
 
-See [Nuget](https://nuget.org/packages/WcfUserAgent/1.0.0)
+See [Nuget](https://nuget.org/packages/WcfUserAgent)
 
 In package manager console:
 PM> Install-Package WcfUserAgent
