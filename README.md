@@ -9,7 +9,7 @@ In package manager console:
 PM> Install-Package WcfUserAgent
 
 ##News
- + **June 6, 2012** Initial dump an setup on Nuget
+ + **June 6, 2012** Initial dump and setup on Nuget
  
 ##Features
  + Set useragent on WCF calls by configuration (endpoint configuration behaviour)
@@ -23,4 +23,4 @@ The idea is that you can just add it to a project via nuget, instead of copy tho
 I will add other dotnet versions on request. Its now only 4.0. 
 
 ##Contributing
-If you have improvements to my code, by all means let me know. If you'd like to become a contributer to the project, I'd be happy to make that happen too!
+If you have improvements to my code, by all means let me know.

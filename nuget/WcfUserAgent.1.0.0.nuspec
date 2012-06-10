@@ -8,8 +8,7 @@
     <title>Message Inspector for WCF to add Useragent header by configuration</title>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 	<projectUrl>https://github.com/henkmeulekamp/WcfUserAgent</projectUrl>
-    <description>.net 4
-Can be compiled for different frameworks; See github project.
+    <description>.net 4, Can be compiled for different frameworks; See github project.
 
 After adding package check servicemodel in app/web.config
 
